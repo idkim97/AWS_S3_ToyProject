@@ -213,6 +213,13 @@ $(function(){
         type: 'app',
         dinamico: false
       },
+      {
+        nombre: '인스타그램',
+        icono: 'img/instagram.jpg',
+        notificaciones: 10,
+        type: 'app',
+        dinamico: false
+      }
       // {
       //   nombre: 'Buscar iPhone',
       //   icono: 'https://firebasestorage.googleapis.com/v0/b/fotos-3cba1.appspot.com/o/ios14%2Ffindphone.png?alt=media&token=9b0106d2-b151-49af-a3d9-dfbd64bc4421',
@@ -951,11 +958,8 @@ ${app.notificaciones ? `<div class="notificacion">${app.notificaciones}</div>` :
     $('.mainScreen').toggleClass('bloqueado');
   })
 
-  // $('.sysIcon.camara').on('click',function(){
-  //   console.log("하하");
-  //   camara();
-  // })
 
+    // 잠금화면 카메라 아이콘 클릭시
     $('body').on('click','.sysIcon.camara' , function(){
     console.log("하하");
     camara();
