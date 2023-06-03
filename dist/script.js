@@ -219,6 +219,13 @@ $(function(){
         notificaciones: 10,
         type: 'app',
         dinamico: false
+      },
+      {
+        nombre: '인스타그램',
+        icono: 'img/instagram.jpg',
+        notificaciones: 10,
+        type: 'app',
+        dinamico: false
       }
       // {
       //   nombre: 'Buscar iPhone',
